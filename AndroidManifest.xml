@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.zeuxislo.emojikeyboard"
+      android:versionCode="1"
+      xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="0.1">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <service android:permission="android.permission.BIND_INPUT_METHOD" android:name="SoftKeyboard" android:description="@string/app_name">
+            <intent-filter>
+                <action android:name="android.view.InputMethod"></action>
+            </intent-filter>
+            <meta-data android:resource="@xml/method" android:name="android.view.im"></meta-data>
+        </service>
+    </application>
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="10.000002%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.0px" android:verticalGap="0.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="58144" android:keyEdgeFlags="left" android:keyIcon="@drawable/e320" />
+        <Key android:codes="57635" android:keyIcon="@drawable/e123" />
+        <Key android:codes="57650" android:keyIcon="@drawable/e132" />
+        <Key android:codes="57667" android:keyIcon="@drawable/e143" />
+        <Key android:codes="58635" android:keyIcon="@drawable/e50b" />
+        <Key android:codes="58644" android:keyIcon="@drawable/e514" />
+        <Key android:codes="58643" android:keyIcon="@drawable/e513" />
+        <Key android:codes="58636" android:keyIcon="@drawable/e50c" />
+        <Key android:codes="58637" android:keyIcon="@drawable/e50d" />
+        <Key android:codes="58641" android:keyEdgeFlags="right" android:keyIcon="@drawable/e511" />
+    </Row>
+    <Row>
+        <Key android:codes="58639" android:keyEdgeFlags="left" android:keyIcon="@drawable/e50f" />
+        <Key android:codes="58642" android:keyIcon="@drawable/e512" />
+        <Key android:codes="58640" android:keyIcon="@drawable/e510" />
+        <Key android:codes="58638" android:keyEdgeFlags="right" android:keyIcon="@drawable/e50e" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="14.999998%p" android:horizontalGap="85.0%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/sym_keyboard_delete" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="14.999998%p" android:codes="-3" android:keyEdgeFlags="left" android:keyIcon="@drawable/sym_keyboard_done" />
+        <Key android:keyWidth="10.000002%p" android:codes="-11" android:keyLabel="ABC" />
+        <Key android:keyWidth="10.000002%p" android:codes="-12" android:keyLabel="123" />
+        <Key android:keyWidth="10.000002%p" android:codes="-21" android:keyIcon="@drawable/e415" />
+        <Key android:keyWidth="10.000002%p" android:codes="-31" android:keyIcon="@drawable/e04a" />
+        <Key android:keyWidth="10.000002%p" android:codes="-41" android:keyIcon="@drawable/e033" />
+        <Key android:keyWidth="10.000002%p" android:codes="-51" android:keyIcon="@drawable/e01d" />
+        <Key android:keyWidth="10.000002%p" android:codes="-61" android:keyIcon="@drawable/e214" />
+        <Key android:keyWidth="14.999998%p" android:codes="10" android:keyEdgeFlags="right" android:keyIcon="@drawable/sym_keyboard_return" />
+    </Row>
+</Keyboard>

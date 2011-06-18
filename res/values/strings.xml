@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">絵文字鍵盤</string>
+    
+    <string name="label_keyboard_key_go">Go</string>
+    <string name="label_keyboard_key_send">Send</string>
+    <string name="label_keyboard_key_next">Next</string>
+    
+	<string name="word_separators">" .,;:!?()[]*&amp;@{}/&lt;>_+=|"</string>
+</resources>
